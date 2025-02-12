@@ -116,6 +116,33 @@
             background-color: #333;
             color: #fff;
         }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            #about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            #about-content img {
+                width: 200px;
+                height: 200px;
+                margin-bottom: 20px;
+            }
+            #about-content p {
+                font-size: 16px;
+            }
+            .skills-container {
+                justify-content: center;
+            }
+            section {
+                margin: 20px auto;
+                padding: 15px;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
     </style>
 </head>
 <body>
