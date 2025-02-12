@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandana V - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: rgb(0, 0, 0);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 10px;
+            color: #f4f4f4;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        section {
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 1000px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        #about-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        #about-content img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #007BFF;
+        }
+        #about-content p {
+            font-size: 18px;
+            flex: 1;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+        .skill-button:hover {
+            background-color: #0056b3;
+        }
+        .projects-list, .certifications-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects-list li, .certifications-list li {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .projects-list li a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .projects-list li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chandana V</h1>
+        <p>Full Stack Developer</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/chandana0892/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/chandanav0892" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com/u/chandanav0892/" target="_blank"><i class="fas fa-code"></i></a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div id="about-content">
+            <img src="chandana.jpeg" alt="Chandana V">
+            <div>
+                <p>Hi, I'm Chandana V, a passionate and results-driven developer with a strong background in front-end and back-end technologies. I specialize in creating modern, responsive, and user-friendly web applications.</p>
+                <p>As a developer, I am proficient in technologies such as HTML, CSS, JavaScript, and popular front-end frameworks like React. On the back-end, I am experienced in Python, MongoDB. I am also comfortable working with version control systems like Git.</p>
+                <p>Outside of coding, I love Sketching Cartoons, Cooking and Photography. I am always eager to learn and take on new challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <button class="skill-button">Python</button>
+            <button class="skill-button">Flask</button>
+            <button class="skill-button">MongoDB</button>
+            <button class="skill-button">ReactJS</button>
+            <button class="skill-button">HTML</button>
+            <button class="skill-button">CSS</button>
+            <button class="skill-button">JavaScript</button>
+            <button class="skill-button">Bootstrap</button>
+            <button class="skill-button">Jinja</button>
+            <button class="skill-button">Prompt Engineering (OpenAI)</button>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+            <li>
+                <strong>Weather App</strong>
+                <p>Developed a weather application that provides real-time weather information for any location. Built using JavaScript and integrated with a weather API for accurate data. Features include temperature, humidity, wind speed, and weather conditions.</p>
+                <p>
+                    <a href="https://weather-eta-lovat.vercel.app/" target="_blank">Visit Weather App</a> | 
+                    <a href="https://github.com/chandanav0892/weather" target="_blank">GitHub Repository</a>
+                </p>
+            </li>
+            <li>
+                <strong>Todo-List App</strong>
+                <p>Developed a Todo-List application to help users manage their tasks efficiently. Built using ReactJS, it allows users to add, edit, delete, and mark tasks as completed. The app is responsive and user-friendly.</p>
+                <p>
+                    <a href="https://to-do-list-ruddy-pi-90.vercel.app/" target="_blank">Visit Todo-List App</a> | 
+                    <a href="https://github.com/chandanav0892/to-do-list" target="_blank">GitHub Repository</a>
+                </p>
+            </li>
+            <li>
+                <strong>Generative AI Project</strong>
+                <p>Developed a Generative AI application using OpenAI's API to generate creative content. Integrated with Flask backend and ReactJS frontend.</p>
+            </li>
+            <li>
+                <strong>Full Stack Web Application</strong>
+                <p>Built a full-stack web application using Flask for the backend, MongoDB for the database, and ReactJS for the frontend. Implemented user authentication and CRUD operations.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul class="certifications-list">
+            <li>Python Certified Entry-Level Programmer (PCEP-30-02)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me via email at <a href="mailto:chandanav0892@gmail.com">chandanav0892@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Chandana V. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
